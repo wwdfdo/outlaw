@@ -1,0 +1,13 @@
+.abigail-header-bg {
+  background: radial-gradient(#efe5c7 30%, #ead7b1 70%);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  min-height: 80px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ead7b1;
+}
