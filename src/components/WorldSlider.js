@@ -1,12 +1,9 @@
 import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import { GoPrimitiveDot } from "react-icons/go";
 
 import { useState } from "react";
-import banner1 from "../images/horsebg.png";
-import banner2 from "../images/horsebg-girl.png";
-import "./WorldSlider.css";
+
 import SocialSideMenu from "./SocialSideMenu";
 
 function WorldSlider() {
