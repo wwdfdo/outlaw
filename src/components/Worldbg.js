@@ -6,7 +6,7 @@ import SocialSideMenu from "./SocialSideMenu";
 
 function Worldbg() {
   return (
-    <div className="relative bg-horse-bg w-full h-screen bg-cover flex  items-center xl-items-center max-w-[3000px]">
+    <div className="relative bg-horse-bg-girl w-full h-screen bg-cover flex  items-center xl-items-center max-w-[3000px]">
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={worldbg} type="video/mp4" />
       </video> */}

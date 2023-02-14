@@ -10,7 +10,7 @@ module.exports = {
 
       backgroundImage: {
         "horse-bg": "url('/src/images/horsebg.png')",
-        "horse-bg-girl": "url('/src/images/horsebg-girl.png')",
+        "horse-bg-girl": "url('/src/images/horsebg-girl-pantom.png')",
       },
     },
   },
