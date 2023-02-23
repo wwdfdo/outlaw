@@ -26,7 +26,7 @@ function WorldSlider2() {
       Your Former Gang and Make a Final Stand`,
     },
     {
-      bgImg: "bg-horse-bg-girl",
+      bgImg: "bg-horse-bg-girl-pantom",
       title: `Embark on a Journey with  Abigail Marston in 
       The Outlaw's Last Ride`,
       subtitle: ` Discover the Untold Story of the Wild West as You Track Down
