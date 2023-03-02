@@ -1,5 +1,5 @@
 import React from "react";
-import Header2 from "./Header2";
+import Header2 from "./Header2/Header2";
 // import Header from "./Header";
 import "./Layout.css";
 

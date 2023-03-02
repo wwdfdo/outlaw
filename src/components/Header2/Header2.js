@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../images/logov1.png";
-import { menus } from "../arrays/menus";
+import logo from "../../images/logov1.png";
+import { menus } from "../../arrays/menus";
 import { Link } from "react-router-dom";
-import { navButtons } from "../arrays/navButtons";
+import { navButtons } from "../../arrays/navButtons";
 import { useEffect, useState } from "react";
 
 function Header2() {
@@ -25,7 +25,7 @@ function Header2() {
     <div className="w-full flex justify-center ">
       <div
         className={` fixed flex justify-around min-h-[80px] items-center w-full  z-[1000]  ${
-          headerColor ? "bg-[#d40000]" : "bg-transparent"
+          headerColor ? "bg-[#796A6F]" : "bg-transparent"
         }`}
       >
         <div className="p-2  rounded-md">

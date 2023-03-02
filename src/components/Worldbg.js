@@ -3,7 +3,7 @@ import React from "react";
 // import horsebg from "../images/horsebg.png";
 
 import SocialSideMenu from "./SocialSideMenu";
-import cowboy from "../audios/Cowboy.mp3";
+// import cowboy from "../audios/Cowboy.mp3";
 
 function Worldbg() {
   return (
