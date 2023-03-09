@@ -1,10 +1,7 @@
 @font-face {
-  font-family: "oldwestern";
-  src: url("./fonts/Go_2_Old_Western.eot");
-  src: url("./fonts/Go_2_Old_Western.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Go_2_Old_Western.woff2") format("woff2"),
-    url("./fonts/Go_2_Old_Western.woff") format("woff"),
-    url("./fonts/Go_2_Old_Western.ttf") format("truetype");
+  font-family: "Fattern";
+  src: url("./fonts/Fattern.otf");
+  src: url("./fonts/Fattern.otf") format("opentype");
 
   font-weight: normal;
   font-style: normal;

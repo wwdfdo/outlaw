@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: [`'oldwestern'`, ...defaultTheme.fontFamily.sans],
+        sans: [`'fattern'`, ...defaultTheme.fontFamily.sans],
       },
 
       backgroundImage: {

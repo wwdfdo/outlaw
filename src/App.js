@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import Gallery from "./components/Gallery";
 import Layout from "./components/Layout";
 import Roadmap from "./components/Roadmap";
-import Worldbg from "./components/Worldbg";
 import RoadmapTwo from "./components/RoadmapTwo";
 import RoadmapThree from "./components/RoadmapThree";
 import HomePage from "./pages/HomePage";

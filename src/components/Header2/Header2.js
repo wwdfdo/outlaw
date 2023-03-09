@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logov1.png";
+import logo from "../../images/logov2.png";
 import { menus } from "../../arrays/menus";
 import { Link } from "react-router-dom";
 import { navButtons } from "../../arrays/navButtons";
@@ -25,20 +25,20 @@ function Header2() {
     <div className="w-full flex justify-center ">
       <div
         className={` fixed flex justify-around min-h-[80px] items-center w-full  z-[1000]  ${
-          headerColor ? "bg-[#323B42]" : "bg-transparent"
+          headerColor ? "bg-[#bb2f49]" : "bg-transparent"
         }`}
       >
         <div className="p-2  rounded-md">
           <Link to="/">
             {" "}
             {/* <img className="w-[60px] " src={logo} alt="" /> */}
-            <img className="w-[60px] " src={logo} alt="" />
+            <img className="w-[80px] " src={logo} alt="" />
             {/* <p className="text-white uppercase font-extrabold text-sm">
               The Outlaw's Last Ride
             </p> */}
           </Link>
         </div>
-        <ul className="flex gap-5 items-center">
+        <ul className="flex gap-5 items-center text-[#e7ded6] ">
           {menus.map((menu) => (
             <Link
               key={menu.id}
@@ -55,7 +55,7 @@ function Header2() {
             <Link
               key={navButton.id}
               to={navButton.url}
-              className={` justify-center  h-8 text-center  flex items-center cursor-pointer uppercase ${navButton.style}`}
+              className={` justify-center text-[#e7ded6]  h-8 text-center  flex items-center cursor-pointer uppercase ${navButton.style}`}
             >
               <li> {navButton.name}</li>
             </Link>
