@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logov2.png";
+import logo from "../../images/outlawlogo.png";
 import { menus } from "../../arrays/menus";
 import { Link } from "react-router-dom";
 import { navButtons } from "../../arrays/navButtons";

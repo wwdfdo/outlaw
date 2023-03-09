@@ -15,7 +15,7 @@ export const navButtons = [
     id: 2,
     name: "Play",
     style:
-      "border-solid border-[#e7ded6] border-2 border-white px-5 rounded-2xl tracking-[.3825rem] text-[1rem]",
+      "border-solid border-[#e7ded6] border-2 border-white px-5 py-2 rounded-2xl tracking-[.3825rem] text-[1rem]",
     url: "/",
   },
 ];

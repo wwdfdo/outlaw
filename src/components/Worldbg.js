@@ -3,19 +3,19 @@ import React from "react";
 // import horsebg from "../images/horsebg.png";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import smokingirl from "../images/character-animatv2.gif";
+import smokingirl from "../images/character-animated-transparent.gif";
 
 import SocialSideMenu from "./SocialSideMenu";
 // import cowboy from "../audios/Cowboy.mp3";
 
 function Worldbg() {
   return (
-    <div className="relative bg-[#bb2f49] w-full h-screen  flex justify-around  items-center xl-items-center max-w-[3000px]">
+    <div className="relative bg-horse-bg-girl-pantom bg-cover w-full h-screen  flex justify-around  items-center xl-items-center max-w-[3000px]">
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={worldbg} type="video/mp4" />
       </video> */}
 
-      <div className="   flex  pl-[2%]   ">
+      <div className="   flex  pl-[4%]   ">
         <div className="  flex flex-col gap-5 justify-start ">
           <h2 className="text-[6rem] xl-text-[4.6rem] leading-[6rem]   ">
             {/* Embark on a Journey with <br /> Abigail Marston in <br /> */}
@@ -45,7 +45,7 @@ function Worldbg() {
         </div>
       </div>
       <div className="pt-20">
-        <img src={smokingirl} className="w-[430px]" alt="" />
+        <img src={smokingirl} className="w-[540px]" alt="" />
       </div>
       <SocialSideMenu />
     </div>
