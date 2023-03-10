@@ -16,19 +16,19 @@ function Worldbg() {
         <source src={worldbg} type="video/mp4" />
       </video> */}
 
-      <div className=" flex  lg:pl-[5%] self-center ">
+      <div className=" flex  lg:pl-[5%] self-start ">
         <div className="  flex flex-col  lg:justify-center justify-center mt-20 lg:mt-0  ">
-          <div className="flex justify-center rotate -mb-4  ">
-            <Logo width="lg:w-[420px] pt-10  -rotate-12" />
+          <div className="flex justify-start rotate -mb-4  ">
+            <Logo width="lg:w-[450px] pt-10  -rotate-12" />
           </div>
-          <h2 className="lg:text-[5.8rem]  text-[2.5rem] lg:leading-[6rem] leading-[3rem] mb-8   ">
+          <h2 className="lg:text-[5.8rem]  text-[2.5rem] lg:leading-[6rem] leading-[3rem] mb-[5%]   ">
             {/* Embark on a Journey with <br /> Abigail Marston in <br /> */}
             The Outlaw's <br /> Last Ride
           </h2>
           {/* <h2 className="text-[5.8rem] xl-text-[4.6rem] leading-tight  ">
             From the garden <br /> to the alley
           </h2> */}
-          <h2 className="lg:text-xl text-[0.5rem] font-light mb-2 ">
+          <h2 className="lg:text-xl text-[0.5rem] font-light mb-[1%] ">
             Discover the Untold Story of the Wild West as You Track Down <br />
             Your Former Gang and Make a Final Stand
           </h2>

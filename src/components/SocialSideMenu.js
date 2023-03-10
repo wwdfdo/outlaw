@@ -17,6 +17,7 @@ function SocialSideMenu() {
     //   ))}
     // </ul>
     <ul className="flex   items-center ">
+      {/* <div className="h-6 w-[3px] bg-white"></div> */}
       {menuButtons.map((menuButton) => (
         <Link
           key={menuButton.id}

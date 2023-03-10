@@ -23,7 +23,7 @@ const Navigation = () => {
   return (
     <div className="w-full lg:flex justify-center hidden ">
       <div
-        className={` fixed flex justify-between  px-[10%] min-h-[80px] items-center w-full  z-[1000]  ${
+        className={` fixed flex justify-end  pr-[3%] min-h-[80px] items-center w-full  z-[1000]  ${
           headerColor ? "bg-[#eb3c27]" : "bg-transparent"
         }`}
       >
