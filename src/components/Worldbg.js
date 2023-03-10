@@ -44,8 +44,8 @@ function Worldbg() {
           </div>
         </div>
       </div>
-      <div className=" self-end">
-        <img src={smokingirl} className=" lg:w-[660px] w-[540px]" alt="" />
+      <div className=" self-end lg:w-[35%] w-[540px]">
+        <img src={smokingirl} className=" " alt="" />
       </div>
       <SocialSideMenu />
     </div>
