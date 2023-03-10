@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/outlawlogo.png";
+import logo from "../../images/logov4.png";
 import { menus } from "../../arrays/menus";
 import { Link } from "react-router-dom";
 // import { navButtons } from "../../arrays/navButtons";
@@ -33,7 +33,7 @@ function Header2() {
           <Link to="/">
             {" "}
             {/* <img className="w-[60px] " src={logo} alt="" /> */}
-            <img className="w-[80px] " src={logo} alt="" />
+            <img className="w-[150px] " src={logo} alt="" />
             {/* <p className="text-white uppercase font-extrabold text-sm">
               The Outlaw's Last Ride
             </p> */}

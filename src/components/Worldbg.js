@@ -29,15 +29,15 @@ function Worldbg() {
             Your Former Gang and Make a Final Stand
           </h2>
           <div className="flex lg:flex-nowrap lg:justify-start justify-center  flex-wrap lg:gap-4 gap-2 lg:mt-5 mt-2">
-            <div className="flex items-center gap-1 bg-black lg:px-5 lg:py-3 py-1 px-2 lg:text-base  text-[0.6rem] rounded-3xl bg-opacity-70 hover:bg-opacity-80 cursor-pointer ">
+            <div className="flex items-center gap-1 bg-black lg:px-5 lg:py-3 py-2 px-2 lg:text-base  text-[0.5rem] rounded-3xl bg-opacity-70 hover:bg-opacity-80 cursor-pointer ">
               <span>A THIRSTY SIDEKICK</span>
               <HiOutlineArrowNarrowDown />
             </div>
-            <div className="flex items-center gap-1 bg-white bg-opacity-20 hover:bg-opacity-30 lg:px-5 px-2 lg:py-3 py-1 lg:text-base text-[0.6rem] rounded-3xl cursor-pointer ">
+            <div className="flex items-center gap-1 bg-white bg-opacity-20 hover:bg-opacity-30 lg:px-5 px-2 lg:py-3 py-2 lg:text-base text-[0.5rem] rounded-3xl cursor-pointer ">
               <span>VIEW GALLERY</span>
               <HiOutlineArrowNarrowRight />
             </div>
-            <div className="flex items-center gap-1 bg-white bg-opacity-20 hover:bg-opacity-30 lg:px-5 px-2 lg:py-3 py-1 rounded-3xl lg:text-base text-[0.6rem] cursor-pointer">
+            <div className="flex items-center gap-1 bg-white bg-opacity-20 hover:bg-opacity-30 lg:px-5 px-2 lg:py-3 py-2 rounded-3xl lg:text-base text-[0.5rem] cursor-pointer">
               <span>OPENSEA</span>
               <HiOutlineArrowNarrowRight />
             </div>
