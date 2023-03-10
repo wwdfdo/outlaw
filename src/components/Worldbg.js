@@ -15,7 +15,7 @@ function Worldbg() {
         <source src={worldbg} type="video/mp4" />
       </video> */}
 
-      <div className="   flex  pl-[4%]   ">
+      <div className=" flex  pl-[4%]   ">
         <div className="  flex flex-col gap-5 justify-start ">
           <h2 className="text-[6rem] xl-text-[4.6rem] leading-[6rem]   ">
             {/* Embark on a Journey with <br /> Abigail Marston in <br /> */}
@@ -44,8 +44,8 @@ function Worldbg() {
           </div>
         </div>
       </div>
-      <div className="pt-20">
-        <img src={smokingirl} className="w-[540px]" alt="" />
+      <div className=" self-end">
+        <img src={smokingirl} className=" lg:w-[660px] w-[540px]" alt="" />
       </div>
       <SocialSideMenu />
     </div>
