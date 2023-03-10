@@ -27,7 +27,7 @@ const Navigation = () => {
           headerColor ? "bg-[#eb3c27]" : "bg-transparent"
         }`}
       >
-        <Logo />
+        <Logo width="w-[150px]" />
         <ul className="flex gap-5 items-center text-[#e7ded6] ">
           {menus.map((menu) => (
             <Link

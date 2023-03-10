@@ -21,7 +21,7 @@ function SocialSideMenu() {
         <Link
           key={menuButton.id}
           to={menuButton.url}
-          className="tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase "
+          className="tracking-[.1825rem] font-bold text-[0.9rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase "
         >
           <li> {menuButton.name}</li>
         </Link>
