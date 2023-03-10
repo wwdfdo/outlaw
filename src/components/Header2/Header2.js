@@ -2,8 +2,9 @@ import React from "react";
 import logo from "../../images/outlawlogo.png";
 import { menus } from "../../arrays/menus";
 import { Link } from "react-router-dom";
-import { navButtons } from "../../arrays/navButtons";
+// import { navButtons } from "../../arrays/navButtons";
 import { useEffect, useState } from "react";
+import SocialSideMenu from "../SocialSideMenu";
 
 function Header2() {
   const [headerColor, SetHeaderColor] = useState(false);
@@ -22,7 +23,7 @@ function Header2() {
   }, []);
 
   return (
-    <div className="w-full flex justify-center ">
+    <div className="w-full lg:flex justify-center hidden ">
       <div
         className={` fixed flex justify-around min-h-[80px] items-center w-full  z-[1000]  ${
           headerColor ? "bg-[#eb3c27]" : "bg-transparent"
@@ -43,14 +44,14 @@ function Header2() {
             <Link
               key={menu.id}
               to={menu.url}
-              className="tracking-[.2825rem] font-normal text-[1rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase "
+              className="tracking-[.2825rem] font-normal lg:text-[1rem] text-[0.5rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
               <li> {menu.name}</li>
             </Link>
           ))}
         </ul>
 
-        <ul className="flex gap-5 items-center">
+        {/* <ul className="flex gap-5 items-center">
           {navButtons.map((navButton) => (
             <Link
               key={navButton.id}
@@ -60,7 +61,9 @@ function Header2() {
               <li> {navButton.name}</li>
             </Link>
           ))}
-        </ul>
+        </ul> */}
+
+        <SocialSideMenu />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import "./Layout.css";
 
 function Layout(props) {
   return (
-    <div className="bg-black text-white font-normal">
+    <div className="bg-black text-white font-normal m-0 p-0 box-border">
       {/* <Header /> */}
       <Header2 />
       <main>{props.children}</main>

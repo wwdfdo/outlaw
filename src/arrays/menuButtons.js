@@ -19,9 +19,9 @@ export const menuButtons = [
     name: <FaDiscord size={24} />,
     url: "/",
   },
-  {
-    id: 10,
-    name: <HiCurrencyPound size={24} />,
-    url: "/",
-  },
+  // {
+  //   id: 10,
+  //   name: <HiCurrencyPound size={24} />,
+  //   url: "/",
+  // },
 ];
