@@ -36,8 +36,8 @@ const MobileNav = () => {
     <div className="flex fixed justify-between w-full lg:hidden bg-[#eb3c27]">
       <Logo width="w-[50px]" />
       <div
-        className={`lg:hidden gap-6 lg:h-screen justify-center  items-center text-sxl tracking-widest font-semibold flex  flex-col ${
-          open ? "bg-[#000000] p-5 absolute w-full h-screen bg-opacity-90" : ""
+        className={`lg:hidden gap-10 lg:h-screen justify-center  items-center text-xl tracking-widest font-semibold flex  flex-col ${
+          open ? "bg-[#000000] p-5 absolute w-full h-screen  bg-opacity-95" : ""
         }`}
       >
         {open ? closeIcon : hamburgerIcon}
