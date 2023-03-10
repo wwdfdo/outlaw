@@ -1,6 +1,7 @@
 import React from "react";
-import { ImMenu } from "react-icons/im";
+// import { ImMenu } from "react-icons/im";
 import { HiOutlineMenu } from "react-icons/hi";
+import { CgMenu } from "react-icons/cg";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { menus } from "../../arrays/menus";
@@ -13,7 +14,7 @@ const MobileNav = () => {
   const [open, setOpen] = useState(false);
 
   const hamburgerIcon = (
-    <HiOutlineMenu
+    <CgMenu
       className="text-[30px] absolute right-[3%] top-2"
       onClick={() => {
         setOpen(!open);
