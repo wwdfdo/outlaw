@@ -37,7 +37,7 @@ const MobileNav = () => {
     <div className="flex fixed justify-between w-full lg:hidden bg-[#eb3c27]">
       <Logo width="w-[50px]" />
       <div
-        className={`lg:hidden gap-10 lg:h-screen justify-center  items-center text-xl tracking-widest font-semibold flex  flex-col ${
+        className={`lg:hidden gap-10 lg:h-screen justify-center  items-center text-[1.4rem] tracking-[0.5rem] font-semibold flex  flex-col ${
           open ? "bg-[#000000] p-5 absolute w-full h-screen  bg-opacity-95" : ""
         }`}
       >
@@ -46,7 +46,7 @@ const MobileNav = () => {
           menus.map((menu) => (
             <a
               key={menu.id}
-              className={`text-[#ffffff]  ${
+              className={`text-[#eb3c27]  ${
                 menu.id === "button"
                   ? "bg-[#274077] py-3 px-5 rounded-md text-[#ffffff]"
                   : ""
@@ -63,7 +63,7 @@ const MobileNav = () => {
               <Link
                 key={menuButton.id}
                 to={menuButton.url}
-                className="tracking-[.1825rem] font-bold text-[0.9rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase "
+                className="tracking-[.1825rem] font-bold text-[0.9rem] px-3 h-8 text-[#eb3c27] text-center rounded-md flex items-center cursor-pointer uppercase "
                 onClick={() => closeMobileMenu()}
               >
                 {menuButton.mobilename}

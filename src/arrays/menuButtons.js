@@ -7,20 +7,20 @@ export const menuButtons = [
   {
     id: 7,
     name: <AiFillTwitterCircle size={24} />,
-    mobilename: <AiFillTwitterCircle size={30} />,
+    mobilename: <AiFillTwitterCircle size={40} />,
 
     url: "/",
   },
   {
     id: 8,
     name: <AiFillInstagram size={24} />,
-    mobilename: <AiFillInstagram size={30} />,
+    mobilename: <AiFillInstagram size={40} />,
     url: "/",
   },
   {
     id: 9,
     name: <FaDiscord size={24} />,
-    mobilename: <FaDiscord size={30} />,
+    mobilename: <FaDiscord size={40} />,
 
     url: "/",
   },
