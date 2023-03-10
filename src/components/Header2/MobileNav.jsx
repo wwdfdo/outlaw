@@ -66,7 +66,7 @@ const MobileNav = () => {
                 className="tracking-[.1825rem] font-bold text-[0.9rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase "
                 onClick={() => closeMobileMenu()}
               >
-                {menuButton.name}
+                {menuButton.mobilename}
               </Link>
             ))}
           </ul>

@@ -4,6 +4,7 @@ import React from "react";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import smokingirl from "../images/character-animated-transparent.gif";
+import Logo from "./Header2/Logo";
 
 import SocialSideMenu from "./SocialSideMenu";
 // import cowboy from "../audios/Cowboy.mp3";
@@ -16,7 +17,10 @@ function Worldbg() {
       </video> */}
 
       <div className=" flex  lg:pl-[5%] ">
-        <div className="  flex flex-col lg:gap-5 gap-3 lg:justify-start justify-center mt-20 lg:mt-0  ">
+        <div className="  flex flex-col lg:gap-5 gap-3 lg:justify-center justify-center mt-20 lg:mt-0  ">
+          <div className="flex justify-center rotate ">
+            <Logo width="w-[450px] -rotate-12" />
+          </div>
           <h2 className="lg:text-[6rem]  text-[2.5rem] lg:leading-[6rem] leading-[3rem]   ">
             {/* Embark on a Journey with <br /> Abigail Marston in <br /> */}
             The Outlaw's <br /> Last Ride
