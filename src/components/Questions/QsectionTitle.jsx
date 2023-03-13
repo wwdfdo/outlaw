@@ -4,12 +4,12 @@ const QsectionTitle = () => {
   return (
     <div className="flex flex-col gap-10">
       <div>
-        <h2 className=" md:text-[3em] text-[2.5em] text-center">
+        <h2 className=" md:text-[3em] text-[2em] text-center">
           Frequently Asked Questions
         </h2>
       </div>
       <div className="text-center mb-10">
-        <p className=" text-2xl ">
+        <p className=" text-xl ">
           Any questions you have we are here to answer.
         </p>
       </div>
