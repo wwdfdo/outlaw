@@ -13,8 +13,8 @@ function HomePage() {
       <Worldbg />
       {/* <WorldSlider2 /> */}
       {/* <WorldSlider /> */}
-      <QuestionSection />
       <Roadmap />
+      <QuestionSection />
     </div>
   );
 }

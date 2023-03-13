@@ -9,7 +9,7 @@ import "./Roadmap.css";
 
 const Roadmap = () => {
   return (
-    <div>
+    <div className="pt-40">
       <h2 className="text-center text-6xl  mb-20">Road Map</h2>
       <VerticalTimeline>
         <VerticalTimelineElement
