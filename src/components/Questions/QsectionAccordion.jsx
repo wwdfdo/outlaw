@@ -8,7 +8,7 @@ const QsectionAccordion = ({ QuestionArray }) => {
       {QuestionArray.map((Question) => (
         <div
           key={Question.id}
-          className="md:w-4/5 w-[95%] bg-[#f0c942] lg:px-8 px-6 lg:py-6 py-2 rounded-xl text-[#000] cursor-pointer"
+          className="md:w-4/5 w-[97%] bg-[#f0c942] lg:px-8 px-3 lg:py-6 py-2 rounded-xl text-[#000] cursor-pointer"
         >
           <div
             className="flex justify-between"
@@ -34,7 +34,7 @@ const QsectionAccordion = ({ QuestionArray }) => {
           <div
             className={`${
               visibleAccordionId === Question.id ? "answer-active" : "hidden"
-            } mt-8`}
+            } lg:mt-8 mt-4`}
           >
             <p className=" lg:text-[1rem] text-[.8rem] tracking-wider leading-loose">
               {Question.answer}
