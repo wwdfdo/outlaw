@@ -14,6 +14,7 @@ module.exports = {
         "horse-bg-girl-pantom": "url('/src/images/horsebg-girl-pantom3.png')",
         "new-bg": "url('/src/images/newbg.png')",
         "roadmap-bg": "url('/src/images/desert1.gif')",
+        "roadmapmobile-bg": "url('/src/images/desertmobile.gif')",
       },
     },
   },
