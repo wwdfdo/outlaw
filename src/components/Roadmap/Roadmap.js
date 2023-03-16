@@ -10,7 +10,7 @@ import { roadmapItems } from "../../arrays/roadmapArray";
 
 const Roadmap = () => {
   return (
-    <div className="pt-40 pb-20 bg-roadmap-bg bg-cover bg-no-repeat bg-blend-darken bg-black bg-opacity-60  bg-fixed relative">
+    <div className="pt-40 pb-20 bg-roadmap-bg bg-bottom  bg-cover bg-no-repeat bg-blend-darken bg-black bg-opacity-60  bg-fixed relative">
       <h2 className="text-center text-6xl  mb-20">Road Map</h2>
       <VerticalTimeline>
         {roadmapItems.map((roadmapitem) => (
