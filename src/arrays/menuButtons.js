@@ -1,7 +1,7 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
-import { HiCurrencyPound } from "react-icons/hi";
+// import { HiCurrencyPound } from "react-icons/hi";
 
 export const menuButtons = [
   {

@@ -18,10 +18,24 @@
   animation-duration: 2s;
 }
 
+.vertical-timeline-element-date {
+  font-size: 1.4rem !important;
+  padding: 0.4rem !important;
+  color: white !important;
+  opacity: 1 !important;
+}
+
 @media only screen and (min-width: 1170px) {
   .vertical-timeline--two-columns .vertical-timeline-element-content {
     margin-left: 0;
-    padding: 0 3.5em 1.5em 3.5em;
+    padding: 1rem 3.5em 1.5em 3.5em;
     width: 44%;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .vertical-timeline-element-icon {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 15px 0px 0px 10px !important;
   }
 }

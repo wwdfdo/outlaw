@@ -4,7 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { BsFillSkipStartCircleFill } from "react-icons/bs";
 import "./Roadmap.css";
 import { roadmapItems } from "../../arrays/roadmapArray";
 
@@ -32,10 +31,10 @@ const Roadmap = () => {
               margin: "15px 0  0 -15px",
             }}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title text-[1.3rem] text-[#f0cd43]">
               {`${roadmapitem.title}`}
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
+            <h4 className="vertical-timeline-element-subtitle text-[#eb3c27] text-md">
               {`${roadmapitem.subTitle}`}
             </h4>
             <p>{`${roadmapitem.description}`}</p>
