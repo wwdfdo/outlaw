@@ -24,10 +24,10 @@ const Navigation = () => {
     <div className="w-full lg:flex justify-center hidden ">
       <div
         className={` fixed flex justify-between  px-[10%] min-h-[80px] items-center w-full  z-[1000]  ${
-          headerColor ? "bg-[#ed3b4b]" : "bg-transparent"
+          headerColor ? "bg-[#eb3c27]" : "bg-transparent"
         }`}
       >
-        <Logo width="w-[80px]" />
+        <Logo width="w-[120px]" />
         <ul className="flex gap-5 items-center text-[#e7ded6] ">
           {menus.map((menu) => (
             <Link

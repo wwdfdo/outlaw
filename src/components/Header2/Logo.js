@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logov6transparent.png";
+import logo from "../../images/logov5.png";
 import { Link } from "react-router-dom";
 
 const Logo = ({ width }) => {
