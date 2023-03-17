@@ -37,4 +37,17 @@
     height: 20px !important;
     margin: 15px 0px 0px 10px !important;
   }
+
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    animation: none 0s;
+  }
+
+  .vertical-timeline--two-columns.vertical-timeline--animate
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
+    .vertical-timeline-element-content.bounce-in {
+    animation: none 0s;
+    animation-duration: 0s;
+  }
 }
