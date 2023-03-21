@@ -1,10 +1,10 @@
 import React from "react";
 
 // import Logo from "../Header/Logo";
-import Footerlogo from "../../images/logov5.png";
-import { AiFillInstagram } from "react-icons/ai";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { FaDiscord } from "react-icons/fa";
+// import Footerlogo from "../../images/logov5.png";
+// import { AiFillInstagram } from "react-icons/ai";
+// import { AiOutlineTwitter } from "react-icons/ai";
+// import { FaDiscord } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
         <img className="w-[90px]" src={Footerlogo} alt="" />
       </div> */}
 
-      <h2 className="text-center text-[.7rem] lg:text-[1.2rem]">
+      <h2 className="text-center text-[.7rem] lg:text-[1.1rem] tracking-[.2rem]">
         Copyright © 2022.Outlaw Labs All Rights Reserved.
       </h2>
       {/* <div className="flex gap-5">
