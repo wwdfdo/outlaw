@@ -25,6 +25,6 @@
 }
 
 .questionGlass {
-  animation: slideInLeft 0.8s;
+  animation: slideInLeft 1s;
   animation-fill-mode: forwards;
 }

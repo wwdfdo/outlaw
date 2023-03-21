@@ -16,7 +16,7 @@ function Worldbg() {
       </video> */}
 
       <div className=" flex  lg:pl-[10%] ">
-        <div className="  flex flex-col lg:gap-5 gap-3 lg:justify-start justify-center mt-20 lg:mt-0  ">
+        <div className="  flex flex-col lg:gap-5 gap-3 lg:justify-start justify-center mt-[30%] lg:mt-0   ">
           <h2 className="lg:text-[6rem]   text-[2.5rem] lg:leading-[6rem] leading-[3rem]   ">
             {/* Embark on a Journey with <br /> Abigail Marston in <br /> */}
             The Outlaw's <br /> Last Ride
