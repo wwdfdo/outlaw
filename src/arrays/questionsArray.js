@@ -42,6 +42,17 @@ export const QuestionArray = [
   },
   {
     id: 7,
+    qtitle: `What is the Mint Price?`,
+    answer: (
+      <p>
+        Presale Price: 116 Matic <br /> Public Sale Price: 232 Matic <br /> Last
+        Stage Sale Price: 298 Matic
+      </p>
+    ),
+    icon: <BiFace size={22} />,
+  },
+  {
+    id: 8,
     qtitle: `What are the potential benefits of investing in "The Outlaw's Last Ride" token?"?`,
     answer: `"The Outlaw's Last Ride" tokens have a fixed supply of 9.6 million, and the smart contract does not allow for minting to ensure investor safety. Additionally, "The Outlaw's Last Ride" token holders benefit from the reflection function, as it is used as a utility in the "The Outlaw's Last Ride" ecosystem.
 
@@ -49,7 +60,7 @@ export const QuestionArray = [
     icon: <BiFace size={22} />,
   },
   {
-    id: 8,
+    id: 9,
     qtitle: `How secure is "The Outlaw's Last Ride"?`,
     answer: `If we talk about the security of "The Outlaw's Last Ride", then the "The Outlaw's Last Ride" website and all the products of our ecosystem use the SHA-256 bit algorithm to secure its smart contract.
 
