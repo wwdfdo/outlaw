@@ -7,6 +7,7 @@ import Roadmap from "../components/Roadmap/Roadmap";
 // import VideoBg from "../components/VideoBg";
 import Worldbg from "../components/Worldbg";
 import Footer from "../components/Footer/FooterTwo";
+import WorldBgTorl from "../components/WorldBgTorl/WorldBgTorl";
 // import WorldSlider2 from "../components/WorldSlider2";
 // import WorldSlider from "../components/WorldSlider";
 
@@ -14,7 +15,8 @@ function HomePage() {
   return (
     <div>
       {/* <VideoBg /> */}
-      <Worldbg />
+      {/* <Worldbg /> */}
+      <WorldBgTorl />
       {/* <WorldSlider2 /> */}
       {/* <WorldSlider /> */}
       <Roadmap />

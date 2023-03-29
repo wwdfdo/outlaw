@@ -1,34 +1,35 @@
 import React from "react";
-// import worldbg from "../images/world1.mp4";
-// import horsebg from "../images/horsebg.png";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import smokingirl from "../images/character-animated-transparent.gif";
+import smokingirl from "../../images/character-animated-transparent.gif";
 
-import SocialSideMenu from "./SocialSideMenu";
-// import cowboy from "../audios/Cowboy.mp3";
-
-function Worldbg() {
+const WorldBgTorl = () => {
   return (
-    <div className="relative bg-horse-bg-girl-pantom lg:bg-cover w-full h-screen  flex lg:flex-row lg:justify-around justify-center items-center lg:items-center  max-w-[3000px] flex-col">
+    <div className="relative bg-horse-torl llg:bg-cover w-full h-screen  flex lg:flex-row lg:justify-around justify-center items-center lg:items-center  max-w-[3000px] flex-col">
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
-        <source src={worldbg} type="video/mp4" />
-      </video> */}
+    <source src={worldbg} type="video/mp4" />
+  </video> */}
 
-      <div className=" flex  lg:pl-[10%]  mt-[30%] lg:mt-0 ">
-        <div className="  flex flex-col lg:gap-5 gap-3 lg:justify-start justify-center   ">
-          <h2 className="lg:text-[6rem]   text-[2.5rem] lg:leading-[6rem] leading-[3rem]   ">
+      {/* <div className=" flex  lg:pl-[10%]  mt-[30%] lg:mt-0 "> */}
+      <div className="flex justify-center ">
+        {/* <div className="  flex flex-col lg:gap-5 gap-3 lg:justify-start justify-center   "> */}
+        <div className="  flex flex-col lg:gap-8 gap-5  justify-center   ">
+          <h2 className="lg:text-[4.8rem]   text-[2.5rem] lg:leading-[6rem] leading-[3rem]   ">
             {/* Embark on a Journey with <br /> Abigail Marston in <br /> */}
-            The Outlaw's <br /> Last Ride
+            {/* The Outlaw's <br /> Last Ride */}
+            The Outlaw's Last Ride
           </h2>
           {/* <h2 className="text-[5.8rem] xl-text-[4.6rem] leading-tight  ">
-            From the garden <br /> to the alley
-          </h2> */}
-          <h2 className="lg:text-xl text-[0.5rem] font-light ">
+        From the garden <br /> to the alley
+      </h2> */}
+          <h2 className="lg:text-xl text-[0.5rem] font-light text-center ">
+            {/* Discover the Untold Story of the Wild West as You Track Down <br />
+        Your Former Gang and Make a Final Stand */}
             Discover the Untold Story of the Wild West as You Track Down <br />
             Your Former Gang and Make a Final Stand
           </h2>
-          <div className="flex lg:flex-nowrap lg:justify-start justify-center  flex-wrap lg:gap-4 gap-2 lg:mt-5 mt-2">
+          {/* <div className="flex lg:flex-nowrap lg:justify-start justify-center  flex-wrap lg:gap-4 gap-2 lg:mt-5 mt-2"> */}
+          <div className="flex lg:flex-nowrap  justify-center  flex-wrap lg:gap-4 gap-2 lg:mt-5 mt-2">
             <div className="flex items-center gap-1 bg-black lg:px-5 lg:py-3 py-2 px-3 lg:text-base  text-[0.5rem] rounded-3xl bg-opacity-70 hover:bg-opacity-80 lg:tracking-normal tracking-widest cursor-pointer ">
               <span>A THIRSTY SIDEKICK</span>
               <HiOutlineArrowNarrowDown />
@@ -44,12 +45,12 @@ function Worldbg() {
           </div>
         </div>
       </div>
-      <div className=" lg:self-end self-center lg:w-[37%] w-full">
-        <img src={smokingirl} className=" " alt="" />
-      </div>
+      {/* <div className=" lg:self-end self-center lg:w-[37%] w-full">
+    <img src={smokingirl} className=" " alt="" />
+  </div> */}
       {/* <SocialSideMenu /> */}
     </div>
   );
-}
+};
 
-export default Worldbg;
+export default WorldBgTorl;
