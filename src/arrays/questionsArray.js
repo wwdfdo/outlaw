@@ -40,4 +40,20 @@ export const QuestionArray = [
     answer: `There may be a limited number of certain types of NFTs available in "The Outlaw's Last Ride", but the exact number will depend on the specific item or collectible. Once all of the NFTs of a certain type have been sold, they will not be available for purchase again.`,
     icon: <BiFace size={22} />,
   },
+  {
+    id: 7,
+    qtitle: `What are the potential benefits of investing in "The Outlaw's Last Ride" token?"?`,
+    answer: `"The Outlaw's Last Ride" tokens have a fixed supply of 9.6 million, and the smart contract does not allow for minting to ensure investor safety. Additionally, "The Outlaw's Last Ride" token holders benefit from the reflection function, as it is used as a utility in the "The Outlaw's Last Ride" ecosystem.
+
+    Investing in the "The Outlaw's Last Ride" token can offer potential benefits such as diversification of portfolio, exposure to emerging blockchain technology, and potential for financial gains.`,
+    icon: <BiFace size={22} />,
+  },
+  {
+    id: 8,
+    qtitle: `How secure is "The Outlaw's Last Ride"?`,
+    answer: `If we talk about the security of "The Outlaw's Last Ride", then the "The Outlaw's Last Ride" website and all the products of our ecosystem use the SHA-256 bit algorithm to secure its smart contract.
+
+    Apart from this, the "The Outlaw's Last Ride" team has cyber security experts. If so, then you do not need to worry at all. We will never launch any product of "The Outlaw's Last Ride" without A/B testing which will be tested by our team before launching.`,
+    icon: <BiFace size={22} />,
+  },
 ];
