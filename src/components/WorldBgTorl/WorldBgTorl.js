@@ -5,7 +5,7 @@ import smokingirl from "../../images/character-animated-transparent.gif";
 
 const WorldBgTorl = () => {
   return (
-    <div className="relative bg-horse-torl llg:bg-cover w-full h-screen  flex lg:flex-row lg:justify-around justify-center items-center lg:items-center  max-w-[3000px] flex-col">
+    <div className="relative bg-horse-torl lg:bg-cover w-full h-screen  flex lg:flex-row lg:justify-around justify-center items-center lg:items-center  max-w-[3000px] flex-col">
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
     <source src={worldbg} type="video/mp4" />
   </video> */}
