@@ -1,0 +1,10 @@
+.torl-slogan {
+  text-shadow: 2px 1px #000;
+}
+
+.torl-girl {
+  position: absolute;
+  left: 53%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
