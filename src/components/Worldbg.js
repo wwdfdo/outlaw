@@ -7,10 +7,11 @@ import smokingirl from "../images/character-animated-transparent.gif";
 
 import SocialSideMenu from "./SocialSideMenu";
 // import cowboy from "../audios/Cowboy.mp3";
+import "./Worldbg.css";
 
 function Worldbg() {
   return (
-    <div className="relative bg-horse-torl lg:bg-cover w-full h-screen  flex lg:flex-row lg:justify-around justify-center items-center lg:items-center  max-w-[3000px] flex-col">
+    <div className="relative bg-horse-onlytorl lg:bg-cover w-full h-screen  flex lg:flex-row lg:justify-around justify-center items-center lg:items-center  max-w-[3000px] flex-col">
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={worldbg} type="video/mp4" />
       </video> */}
@@ -24,7 +25,7 @@ function Worldbg() {
           {/* <h2 className="text-[5.8rem] xl-text-[4.6rem] leading-tight  ">
             From the garden <br /> to the alley
           </h2> */}
-          <h2 className="lg:text-xl text-[0.5rem] font-light ">
+          <h2 className="lg:text-xl text-[0.5rem] font-light torl-slogan ">
             Discover the Untold Story of the Wild West as You Track Down <br />
             Your Former Gang and Make a Final Stand
           </h2>
@@ -45,7 +46,7 @@ function Worldbg() {
         </div>
       </div>
       <div className=" lg:self-end self-center lg:w-[37%] w-full">
-        {/* <img src={smokingirl} className=" " alt="" /> */}
+        <img src={smokingirl} className=" " alt="" />
       </div>
       {/* <SocialSideMenu /> */}
     </div>
