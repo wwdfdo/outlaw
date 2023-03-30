@@ -15,8 +15,8 @@ function HomePage() {
   return (
     <div>
       {/* <VideoBg /> */}
-      {/* <Worldbg /> */}
-      <WorldBgTorl />
+      <Worldbg />
+      {/* <WorldBgTorl /> */}
       {/* <WorldSlider2 /> */}
       {/* <WorldSlider /> */}
       <Roadmap />

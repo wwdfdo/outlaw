@@ -10,7 +10,7 @@ import SocialSideMenu from "./SocialSideMenu";
 
 function Worldbg() {
   return (
-    <div className="relative bg-horse-bg-girl-pantom lg:bg-cover w-full h-screen  flex lg:flex-row lg:justify-around justify-center items-center lg:items-center  max-w-[3000px] flex-col">
+    <div className="relative bg-horse-torl lg:bg-cover w-full h-screen  flex lg:flex-row lg:justify-around justify-center items-center lg:items-center  max-w-[3000px] flex-col">
       {/* <video loop autoPlay muted className="w-full h-screen object-cover">
         <source src={worldbg} type="video/mp4" />
       </video> */}
