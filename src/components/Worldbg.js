@@ -45,7 +45,7 @@ function Worldbg() {
         </div>
       </div>
       <div className=" lg:self-end self-center lg:w-[37%] w-full">
-        <img src={smokingirl} className=" " alt="" />
+        {/* <img src={smokingirl} className=" " alt="" /> */}
       </div>
       {/* <SocialSideMenu /> */}
     </div>
