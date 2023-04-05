@@ -19,14 +19,14 @@ function SocialSideMenu() {
     <ul className="flex   items-center ">
       {/* <div className="h-6 w-[3px] bg-white"></div> */}
       {menuButtons.map((menuButton) => (
-        <Link
+        <a
           key={menuButton.id}
-          to={menuButton.url}
+          href={menuButton.url}
           target="_blank"
           className="tracking-[.1825rem] font-bold text-[0.9rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase "
         >
           <li> {menuButton.name}</li>
-        </Link>
+        </a>
       ))}
     </ul>
   );
