@@ -9,7 +9,7 @@ export const menuButtons = [
     name: <AiFillTwitterCircle size={24} />,
     mobilename: <AiFillTwitterCircle size={40} />,
 
-    url: "/",
+    url: "https://twitter.com/OutlawsLastRide",
   },
   {
     id: 8,
