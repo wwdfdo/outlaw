@@ -24,7 +24,7 @@ const Roadmap = () => {
               top: "12px",
               display: "none",
             }}
-            date={`${roadmapitem.date}`}
+            // date={`${roadmapitem.date}`}
             iconStyle={{
               background: "#eb3c27",
               color: "#f0cb43",
@@ -36,10 +36,14 @@ const Roadmap = () => {
             <h3 className="vertical-timeline-element-title text-[1.3rem] text-[#f0cd43]">
               {`${roadmapitem.title}`}
             </h3>
-            <h4 className="vertical-timeline-element-subtitle text-[#eb3c27] text-md">
+            {/* <h4 className="vertical-timeline-element-subtitle text-[#eb3c27] text-md">
               {`${roadmapitem.subTitle}`}
-            </h4>
-            <p>{`${roadmapitem.description}`}</p>
+            </h4> */}
+            <ul className="flex flex-col gap-2 list-disc">
+              {roadmapitem.description.map((desItem) => (
+                <li>{desItem}</li>
+              ))}
+            </ul>
           </VerticalTimelineElement>
         ))}
         <VerticalTimelineElement
