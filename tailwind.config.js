@@ -16,7 +16,7 @@ module.exports = {
         "horse-onlytorl": "url('/src/images/torlonlybg.png')",
         "new-bg": "url('/src/images/newbg.png')",
         // "roadmap-bg": "url('/src/images/desert1.gif')",
-        "roadmap-bg": "url('/src/images/road2.gif')",
+        "roadmap-bg": "url('/src/images/road3.gif')",
         "roadmapmobile-bg": "url('/src/images/desertmobile.gif')",
       },
     },
