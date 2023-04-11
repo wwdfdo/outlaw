@@ -6,7 +6,7 @@ const QsectionFooter = () => {
       <p className="lg:text-xl text-[.7rem] text-center">
         Haven’t got your answer?
         <span className="ml-2 text-[#f0c942]">
-          <a href="#" target="_blank">
+          <a href="https://twitter.com/OutlawsLastRide" target="_blank">
             Contact us on <span className="underline">Twitter</span>
           </a>
         </span>
