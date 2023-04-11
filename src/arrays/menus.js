@@ -9,31 +9,31 @@ export const menus = [
     name: "Home",
     url: "/",
   },
-  {
-    id: 2,
-    name: "GALLERY",
-    // url: "/gallery",
-  },
-  {
-    id: 3,
-    name: "WORLD",
-    url: "/worldbg",
-  },
+  // {
+  //   id: 2,
+  //   name: "GALLERY",
+  //   // url: "/gallery",
+  // },
+  // {
+  //   id: 3,
+  //   name: "WORLD",
+  //   url: "/worldbg",
+  // },
   {
     id: 4,
     name: "ROADMAP",
     url: "/roadmap",
   },
-  {
-    id: 5,
-    name: "MORE",
-    //url: "/roadmapTwo",
-  },
-  {
-    id: 6,
-    name: "BUY",
-    //url: "/roadmapThree",
-  },
+  // {
+  //   id: 5,
+  //   name: "MORE",
+  //   //url: "/roadmapTwo",
+  // },
+  // {
+  //   id: 6,
+  //   name: "BUY",
+  //   //url: "/roadmapThree",
+  // },
 
   // {
   //   id: 11,
