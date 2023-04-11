@@ -30,13 +30,13 @@ const Navigation = () => {
         <Logo width="w-[120px]" />
         <ul className="flex gap-5 items-center text-[#e7ded6] ">
           {menus.map((menu) => (
-            <Link
+            <a
               key={menu.id}
-              to={menu.url}
+              href={menu.url}
               className="tracking-[.2825rem] font-normal lg:text-[1rem] text-[0.5rem] px-3 h-8 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
               <li> {menu.name}</li>
-            </Link>
+            </a>
           ))}
         </ul>
 

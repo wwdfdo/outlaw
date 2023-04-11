@@ -9,11 +9,11 @@ import { roadmapItems } from "../../arrays/roadmapArray";
 
 const Roadmap = () => {
   return (
-    <div className="lg:pt-40 pt-20 lg:pb-20 pb-5 lg:bg-roadmap-bg bg-roadmap-bg   bg-top bg-cover bg-no-repeat bg-blend-darken bg-[#eb3c27] bg-opacity-50  bg-fixed relative">
-      <h2
-        id="roadmap"
-        className="text-center lg:text-6xl text-4xl  lg:mb-20 mb-10"
-      >
+    <div
+      id="roadmap"
+      className="lg:pt-40 pt-20 lg:pb-20 pb-5 lg:bg-roadmap-bg bg-roadmap-bg   bg-top bg-cover bg-no-repeat bg-blend-darken bg-[#eb3c27] bg-opacity-50  bg-fixed relative"
+    >
+      <h2 className="text-center lg:text-6xl text-4xl  lg:mb-20 mb-10">
         Road Map
       </h2>
       <VerticalTimeline>
