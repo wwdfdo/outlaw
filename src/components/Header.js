@@ -29,36 +29,36 @@ function Header() {
         }`}
       >
         <div className="p-2  rounded-md">
-          <Link to="/">
+          <a href="/">
             {" "}
             {/* <img className="w-[60px] " src={logo} alt="" /> */}
             <img className="w-[60px] " src={logo} alt="" />
             {/* <p className="text-white uppercase font-extrabold text-sm">
               The Outlaw's Last Ride
             </p> */}
-          </Link>
+          </a>
         </div>
         <ul className="flex gap-5 items-center">
           {menus.map((menu) => (
-            <Link
+            <a
+              href={menu.url}
               key={menu.id}
-              to={menu.url}
               className="tracking-[.1825rem] font-normal text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
               <li> {menu.name}</li>
-            </Link>
+            </a>
           ))}
         </ul>
 
         <ul className="flex gap-5 items-center">
           {menuButtons.map((menuButton) => (
-            <Link
+            <a
               key={menuButton.id}
-              to={menuButton.url}
+              href={menuButton.url}
               className="tracking-[.1825rem] font-bold text-[0.8rem] px-3 h-7 text-center rounded-md flex items-center cursor-pointer uppercase "
             >
               <li> {menuButton.name}</li>
-            </Link>
+            </a>
           ))}
         </ul>
       </div>
