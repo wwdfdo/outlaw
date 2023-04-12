@@ -24,6 +24,11 @@ export const menus = [
     name: "ROADMAP",
     url: "#roadmap",
   },
+  {
+    id: 5,
+    name: "FAQ",
+    url: "#faq",
+  },
   // {
   //   id: 5,
   //   name: "MORE",

@@ -28,7 +28,7 @@ const QuestionSection = () => {
   }, [componentRef]);
 
   return (
-    <div className=" lg:pt-[80px] lg:pb-20   ">
+    <div id="faq" className=" lg:pt-[80px] lg:pb-20   ">
       <div
         ref={componentRef}
         className={`lg:bg-black lg:bg-opacity-[15%]    flex flex-col lg:w-3/4 w-[95%] mx-auto items-center gap-5 lg:py-20 py-10 lg:rounded-3xl ${
