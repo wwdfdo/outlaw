@@ -45,8 +45,8 @@ export const QuestionArray = [
     qtitle: `What is the Mint Price?`,
     answer: (
       <p>
-        Presale Price: 116 Matic <br /> Public Sale Price: 232 Matic <br /> Last
-        Stage Sale Price: 298 Matic
+        Presale Price: 25 Matic <br /> Public Sale Price: 35 Matic <br /> After
+        Sale: 45 Matic
       </p>
     ),
     icon: <BiFace size={22} />,
