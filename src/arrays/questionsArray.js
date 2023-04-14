@@ -44,10 +44,11 @@ export const QuestionArray = [
     id: 7,
     qtitle: `What is the Mint Price?`,
     answer: (
-      <p>
-        Presale Price: 25 Matic <br /> Public Sale Price: 35 Matic <br /> After
-        Sale: 45 Matic
-      </p>
+      // <p>
+      //   Presale Price: 25 Matic <br /> Public Sale Price: 35 Matic <br /> After
+      //   Sale: 45 Matic
+      // </p>
+      <p>Public Sale Price: 35 Matic</p>
     ),
     icon: <BiFace size={22} />,
   },
