@@ -22,7 +22,7 @@ export const menuButtons = [
     name: <FaDiscord size={24} />,
     mobilename: <FaDiscord size={40} />,
 
-    url: "/",
+    url: "https://discord.gg/tmJVeNzPxD",
   },
   // {
   //   id: 10,
