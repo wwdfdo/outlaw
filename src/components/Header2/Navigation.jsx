@@ -9,7 +9,6 @@ const Navigation = () => {
   const [headerColor, SetHeaderColor] = useState(false);
 
   const changeHeaderBg = () => {
-    console.log(window.scrollY);
     if (window.scrollY > 0) {
       SetHeaderColor(true);
     } else {
